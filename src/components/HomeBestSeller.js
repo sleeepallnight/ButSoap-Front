@@ -45,9 +45,12 @@ export default function HomeBestSeller() {
             <p className="text-[#777777] font-medium  mb-4 ml-6">
                 <span className='font-semibold text-[#4B7474] ml-10 text-xl'> Saponé ไม่ใช่แค่สบู่ แต่คือทางเลือกของการดูแลตัวเองอย่างอ่อนโยนและใส่ใจโลก </span> ด้วยความตั้งใจในการใช้ส่วนผสมจากธรรมชาติที่สะอาด ปลอดภัย และเป็นมิตรต่อสิ่งแวดล้อม เรารังสรรค์ทุกสูตรจากสารสกัดออร์แกนิกแท้ เช่น ชาเขียว ดอกคาเลนดูล่า และเลมอน ผสานเข้ากับน้ำมันธรรมชาติที่ช่วยบำรุงผิวให้ชุ่มชื้นและสดชื่นอย่างเป็นธรรมชาติ ปราศจากสารเคมีรุนแรง กลิ่นสังเคราะห์ และสิ่งเจือปนที่ไม่จำเป็น Saponé จึงเป็นสบู่ที่ไม่เพียงแค่ทำความสะอาด แต่ยังช่วยคืนความสมดุลให้ผิวและส่งต่อความรู้สึกดีจากธรรมชาติอย่างแท้จริง เพราะเรายึดมั่นว่า… การดูแลตัวเอง ควรเป็นสิ่งที่ดีต่อทั้งตัวคุณและโลกที่คุณอยู่
             </p>
-            <button className='mb-10 ml-5 px-4 py-2 bg-[#748837] text-white rounded-lg cursor-pointer hover:bg-[#5b6834]'>
-                View All Menu
-            </button>
+            <Link href={`/menu`}>
+                <button className='mb-10 ml-5 px-4 py-2 bg-[#748837] text-white rounded-lg cursor-pointer hover:bg-[#5b6834]'>
+                    View All Menu
+                </button>
+            </Link>
+
 
             <h2 className="text-3xl text-gray-700 font-semibold mb-10">Best Seller</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
